@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import { User } from './compnents/User';
+import { Myprofile } from './compnents/Myprofile';
+import { useState } from 'react';
+import { Nav } from './compnents/Nav';
 function App() {
+  const[loggedin, setLoggedin]=useState(false)
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <Nav/>
+      {
+        loggedin?  <Myprofile setLoggedin={setLoggedin} />: <User setLoggedin={setLoggedin}/>
+      }
+      
+     
     </div>
   );
 }
