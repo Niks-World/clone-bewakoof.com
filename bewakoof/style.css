@@ -2,9 +2,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-@media screen and (min-width:500px ) and (max-width:880px) {
+@media screen and (min-width:100px ) and (max-width:880px) {
     #parent {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -15,6 +15,8 @@
     background-color: #eeeeee;
     width: 100%;
     height: 30px;
+    
+    
 
 
 }
@@ -122,25 +124,81 @@ hr{
     width: 100%;
 }
 
-.navbar > div {
-    /* border: 1px solid red; */
+/* .navbar > div {
+    
     display: flex;
     justify-content: space-around;
     width: 70%;
     margin: auto;
    
     
+} */
+
+nav ul {
+    list-style-type: none;
+    margin: 15px;
+    padding: 40;
+    padding-right: 40px;
+    margin-left: 50px;
+   
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+   /* border: 1px soild red; */
+   
+  }
+  
+  nav ul li a {
+    /* border: 1px solid red; */
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    padding-right: 50px;
+   
+    
+  }
+  
+  nav ul li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown-content {
+    /* border: 1px solid red; */
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    display: block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .nav-list li:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
 }
+  
+/* <!---- banner 1 big pic---> */
 
 .banner1{
     width: 100%;
     display: flex;
+        /* border: 1px solid red; */
+   
 
 }
 
 .pic1{
 
-    
+   
     width: 100%;
 
 
@@ -148,6 +206,7 @@ hr{
 
 .pic1 > img{
     width: 100%;
+    height: auto;
 }
 .banner2{
     /* border: 1px solid red; */
@@ -272,40 +331,59 @@ margin-right: 0%;
 .ban11 {
     /* border: 1px solid red ; */
     display: flex;
+    
     width: 100%;
     /* background-color: #fbf5ff; */
 
 
 }
-.p5 >img{
-    width: 16%;
-    /* border: 1px solid red ; */
-    /* background-color: #fbf5ff; */
-}
-.p5img{
-    /* border: 1px solid red; */
-    border-radius: 1%;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-.p5img1{
-    border-radius: 1%;
-    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
-}
-.p5img2{
+.ban11> div{
+border: 1px solid red ;
+
+width: 100%;
+
+
+} 
+/* .p5 >img{
+ width: 100%;
+ border: 1px solid red ;
+    background-color:  #fbf5ff; */
+/* }  */
+
+/* .p5img {
     
     border-radius: 1%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+} */
+
+/* .p5img1{
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    /* width: 70%; */
+/* } */
+.p5img2{
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.p5img2> div{
+    max-width: 100%;
+    scroll-margin-left: 20px;
 }
 
 .p5img3{
+    width: 100%;
     border-radius: 1%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .p5img4{
+    width: 100%;
     border-radius: 1%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 .p5img5{
+    width: 100%;
     border-radius: 1%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
