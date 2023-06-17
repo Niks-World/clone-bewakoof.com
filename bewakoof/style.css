@@ -246,9 +246,15 @@ nav ul {
     display: flex;
     width: 100%;
 }
-.pic3{
+
+.ban5 div{
     width: 100%;
 }
+
+.ban5 div img{
+    width: 100%;
+}
+
 .tc{
     font-size: larger;
     text-align: center;
@@ -260,23 +266,20 @@ nav ul {
 }
 
 .ban6 { 
-    /* border: 1px solid red; */
-    
-    width: 100%;
-margin-right: 0%;
- margin-left: 0%;
- padding: 0%;
-}
-.pic4 {
-    /* border: 1px solid red; */
-    margin: auto;
-    width: 100%;
+display: flex;
+/* border: 1px solid red;   */
+width: 100%;
+ 
 }
 
-.ban6>img{
+
+.ban6  div{
     /* border: 1px solid red; */
-    margin: auto;
-    margin-left: 0.2%;
+    width: 100%;   
+}
+
+.ban6  div img{
+    width: 100%;
 }
 .ttt{
     font-size: 22px;
@@ -293,6 +296,23 @@ margin-right: 0%;
 
     
 }
+
+/* .ban7{
+    border: 1px solid red;
+    
+} */
+
+.ban7 div{
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 1%;
+    margin-top: 0.5%;
+}
+
+.ban7 div img{
+    /* border: 1px solid red; */
+    width: 100%;
+}
 .ctb{
     text-align: center;
     text-shadow: 0cap;
@@ -303,11 +323,43 @@ margin-right: 0%;
     font-family: 'Montserrat', sans-serif;
 
 }
-.ban9 > .pic5{
+
+.ban8{
     /* border: 1px solid red; */
-  width: 40%;
-  display: flex;
+    display: flex;
 }
+
+.ban8 div{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    gap: 1%;
+
+}
+
+.ban8 div img{
+    /* border: 1px solid red; */
+    width: 100%;
+    
+
+}
+
+.ban9{
+    /* border: 1px solid red; */
+    display: flex;
+
+}
+.ban9 div{
+  /* border: 1px solid red;  */
+  width: 100%; 
+}
+
+.ban9 div img{
+    /* border: 1px solid red;  */
+    width: 100%; 
+  }
+
+  
 .pic5 > img{
     width: 80%;
 }
@@ -321,6 +373,21 @@ margin-right: 0%;
     font-family: 'Montserrat', sans-serif;
 
 }
+
+.ban10{
+  /* border: 1px solid red;  */
+  display: flex;  
+}
+
+.ban10 div{
+    /* border: 1px solid red;  */
+    width: 100%; 
+  }
+  
+  .ban10 div img{
+      /* border: 1px solid red;  */
+      width: 100%; 
+    }
 .bs{
     text-align: center;
     font-style: normal;
@@ -330,7 +397,9 @@ margin-right: 0%;
 }
 .ban11 {
     /* border: 1px solid red ; */
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1%;
     
     width: 100%;
     /* background-color: #fbf5ff; */
@@ -338,12 +407,14 @@ margin-right: 0%;
 
 }
 .ban11> div{
-border: 1px solid red ;
-
+/* border: 5px solid red ; */
+gap: 20px;
 width: 100%;
 
 
 } 
+
+
 /* .p5 >img{
  width: 100%;
  border: 1px solid red ;
@@ -363,10 +434,17 @@ width: 100%;
     /* width: 70%; */
 /* } */
 .p5img2{
+    /* border:1px solid red; */
     width: 100%;
     border-radius: 1%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
+.p5img2  img{
+    /* border:1px solid red; */
+    width:100%;
+}
+.p5img2
+
 .p5img2> div{
     max-width: 100%;
     scroll-margin-left: 20px;
@@ -409,6 +487,35 @@ width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
+.ban12 {
+    /* border: 1px solid red ; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1%;
+    width: 100%;
+    
+
+
+}
+.ban12> div{
+/* border: 5px solid red ; */
+width: 100%;
+} 
+
+.ban12 div img{
+    /* border: 5px solid red ; */
+    width: 100%;
+    } 
+
+    .ban13{
+        width: 100%;
+    }
+
+    .ban13 img{
+        width: 100%;
+    }
+
 .foot > img{
     width: 100%;
     margin-right: 0%;
