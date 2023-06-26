@@ -1,29 +1,141 @@
-import React from 'react'
+import React from 'react';
 
-export const Myprofile = ({setLoggedin}) => {
+export const Myprofile = ({ setLoggedIn }) => {
+  const handleLogout = () => {
+    setLoggedIn(false);
+  };
 
-
-
-    const handlelogout=()=>{
-        setLoggedin(false)
-    }
   return (
     <div>
-        <h1>Myprofile</h1>
-        <h2>my personal details</h2>
-        <img src="https://pps.whatsapp.net/v/t61.24694-24/164493875_153235280671087_8666297241142876638_n.jpg?ccb=11-4&oh=01_AdQ4tI02Q_lhyNha8xcd3Ht3y05TTG7nfMGTH2NJED0z3A&oe=64974E55" alt="" height="200px" width="200px"/>
-        <img src="https://iili.io/H6GrLF4.md.jpg" alt="H6GrLF4.md.jpg" border="0" alt="" height="200px" width="200px" />
-        <img src="https://iili.io/H6G6c7V.md.jpg" alt="H6G6c7V.md.jpg" border="0" alt="" height="200px" width="200px" />
-        <img src="./photos/BPLM4502.JPG" alt="" height="200px" width="200px" />
-        <img src="./photos/EFZX5907.JPG" alt="" height="200px" width="200px" />
-        <img src="./photos/FTWD8840.JPG" alt=""height="200px" width="200px" />
+      <h1>My Profile</h1>
+      <h2>My Personal Details</h2>
+      <img
+        src="https://iili.io/H6GrLF4.md.jpg"
+        alt="H6GrLF4.md.jpg"
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }}
+      />
+      <img
+        src="https://iili.io/H6G6c7V.md.jpg"
+        alt="H6G6c7V.md.jpg"
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }}
+      />
+      <img
+        src="https://iili.io/HPLz7ee.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }}
+      />
+      <img
+        src="https://iili.io/HPLzYmu.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }}
+      />
+      {/* Add styling to the remaining images */}
+      {/* ... */}
+      <img
+        src="https://iili.io/HPLzlXj.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
+
+<img
+        src="https://iili.io/HPLzczb.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
 
 
+<img
+        src="https://iili.io/HPLzWdP.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
+
+<img
+        src="https://iili.io/HPLz0Lx.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
+
+
+<img
+        src="https://iili.io/HPLzEqQ.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
+
+<img
+        src="https://iili.io/HPLzMrB.th.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
+
+<img
+        src="https://iili.io/HPLzG1V.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
+
+<img
+        src="https://iili.io/HPL557V.md.jpg"
+        alt=""
+        style={{
+          height: '200px',
+          width: '200px',
+          border: '1px solid black',
+          padding: '10px',
+        }} />
 
 
       <br />
-      
-        <button onClick={handlelogout}>Logout</button>
+      <button onClick={handleLogout}>Logout</button>
     </div>
-  )
-}
+  );
+};
