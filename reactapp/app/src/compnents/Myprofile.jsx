@@ -123,7 +123,7 @@ export const Myprofile = ({ setLoggedIn }) => {
           padding: '10px',
         }} />
 
-<img
+        <img
         src="https://iili.io/HPL557V.md.jpg"
         alt=""
         style={{
